@@ -186,6 +186,7 @@
 .feynman {
   height: 890px;
   position: relative;
+  overflow: hidden;
 }
 
 .feynman__title {
@@ -221,3 +222,46 @@
 }
 
 /* section kaufman  */
+
+.kaufman {
+  overflow: hidden;
+  background: #1f1f1f;
+  position: relative;
+}
+
+.section-title_theme_dark {
+  position: relative;
+  color: #fff;
+  padding-top: 90px;
+  z-index: 2;
+}
+
+.section-subtitle_theme_dark,
+.table__heading_theme_dark,
+.table__text_theme_dark {
+  color: #fff;
+}
+
+.table_theme_dark {
+  padding-bottom: 90px;
+}
+
+.row-margin-top-80 {
+  margin-top: 80px;
+}
+
+.table__cell-width-200 {
+  width: 200px;
+  z-index: 2;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  top: 0;
+  z-index: 1;
+  width: 877px;
+  height: 877px;
+}
+
+/* footer  */
