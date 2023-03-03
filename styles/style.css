@@ -78,6 +78,9 @@
   top: 64px;
   right: 0;
   z-index: 1;
+}
+
+.rotation {
   animation: rotate 20s infinite linear;
 }
 
@@ -320,6 +323,75 @@
   z-index: 2;
 }
 
+/* section khan */
+
+.khan {
+  padding-top: 105px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.khan__container {
+  width: 80%;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 36px;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 68px;
+}
+
+.khan__book-container {
+  display: flex;
+}
+
+/* не понимаю почему картинка искажается, размеры задал по брифу  */
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+}
+
+.khan__buy-link {
+  position: relative;
+  left: 48px;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 /* section kaufman  */
 
 .kaufman {
@@ -347,7 +419,6 @@
   color: #fff;
   margin: 80px 0 10px 0;
 }
-/* скоректировал марджин table_theme_dark, так как в table__cell_theme_dark 80  */
 
 .table__cell_theme_dark {
   margin-bottom: 80px;
