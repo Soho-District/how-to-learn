@@ -1,0 +1,13 @@
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex: 0;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.cards__item:nth-child(3) {
+  margin-right: 0;
+}

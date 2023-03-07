@@ -1,9 +1,9 @@
-# Научиться учиться
+# How to learn
 
-## Проект написан в учебных целях. Используется html, css.
+## The project was written for educational purposes. Used html, css.
 
-### Планы по доработке проекта
+### Plans for finalizing the project
 
-- подключить другие шрифты, c помощью @import
-- добавить любимые образовательные видео, c помощью iframe
-- Созадть дизайн и написать форму, через которую пользователи смогут отправить вам комментарий, с помощью html/css/js.
+- include other fonts using @import
+- add educational videos using "iframe"
+- Design and write a form through which users can send you a comment using html/css/js
